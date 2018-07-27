@@ -465,3 +465,91 @@ a.btn-inst:hover::before {
 	background-image: url("../img/instagramreverce.png");
 }
 
+.modal-login {
+	position: fixed;
+	top: 110px;
+	left: 50%;
+	margin-left: -230px;
+	width: 460px;
+	background: url("../img/Background-Modal.jpg") repeat #f9f6f3 ;
+	color: #000000;
+}
+
+.modal-login p,
+.modal-login h2{
+	margin: 0;
+	padding: 0;
+}
+
+.modal-login h2 {
+	margin-top: 45px;
+	margin-left: 80px;
+	margin-bottom: 40px;
+}
+
+.modal-login p {
+	margin-left: 80px;
+	margin-bottom: 10px;
+}
+
+.login-icon-user,
+.login-icon-password {
+	width: 300px;
+	padding-left: 17px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 2px solid #000101;
+	font: inherit;
+	color: #000000;
+
+
+	background-size: 15px 15px;
+	background-repeat: no-repeat;
+
+	background-position: 95% 50%;
+}
+
+.login-icon-user {
+	background-image: url("../img/user-modal.png");
+	text-transform: uppercase;
+}
+
+.login-icon-password {
+	margin-bottom: 15px;
+	background-image: url("../img/password-modal-lock.png");
+}
+
+.checkbox-indicator {
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #000000;
+}
+
+.checkbox-indicator::before{
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: red;
+
+}
+
+.checkbox-indicator::after {
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	background-color: red;
+}
+
+.user-password-info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+p.user-password-info {
+	margin-right: 60px;
+}
