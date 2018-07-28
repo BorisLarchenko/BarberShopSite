@@ -155,10 +155,10 @@
 				<input class="login-icon-password" type="password" id="user-password" name="password" placeholder="Пароль">
 			</p>
 			<p class="user-password-info">
-				<label for="user-remember">
+				<label class="login-checkbox" for="user-remember">
 					<input class="visuallyhidden" id="user-remember" type="checkbox" name="remember">
 					<span class="checkbox-indicator"></span>
-					Запомните меня
+					 Запомните меня
 				</label>
 				<a href="#">Я забыл пароль</a>
 			</p>
@@ -174,22 +174,32 @@
 		<img src="img/map-modal.jpg" width=766 height=560 alt="барбершоп «бородинский» адрес: г. санкт-петербург, б. конюшенная, д. 19/8 телефон: +7 (495) 666-02-66">
 		<button onclick="addFunctionMap()" class="modal-close" type="button">&#215;</button>
 	</section>
+	<div id="overlay" class="modal-overlay display-none"></div>
+
 	<script>
 		function addFunctionLogin() {
 			let element = document.getElementById("modal-login1");
 			element.className += " display-none";
+      let overlay = document.getElementById("overlay");
+      overlay.className += " display-none";
 			}
-			function remFunctinonLogin() {
+		function remFunctinonLogin() {
         let element = document.getElementById("modal-login1");
         element.classList.remove("display-none");
-      }
-			function RemFunctionMap() {
+        let overlay = document.getElementById("overlay");
+        overlay.classList.remove("display-none");
+    }
+		function RemFunctionMap() {
 				let element = document.getElementById("modal-map1");
 				element.classList.remove("display-none");
+        let overlay = document.getElementById("overlay");
+        overlay.classList.remove("display-none");
     }
     function addFunctionMap() {
       let element = document.getElementById("modal-map1");
       element.className += " display-none";
+      let overlay = document.getElementById("overlay");
+      overlay.className += " display-none";
     }
 	</script>
 </body>
