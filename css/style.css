@@ -634,7 +634,20 @@ button.modal-close{
 	z-index: 2;
 }
 
-.modal-map img {
+.google-map {
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -383px;
+	margin-top: -280px;
+}
+
+
+.modal-map p {
+	margin: 0;
+	width: 766px;
+	height: 560px;
 	border: 10px solid white;
 }
 
