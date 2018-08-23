@@ -89,6 +89,11 @@ a {
 	margin-bottom: 60px;
 }
 
+.inner-page .main-nav-wrapper {
+	width: 100%;
+	margin-bottom: 0;
+}
+
 .main-navigation {
 	font-size: 16px;
 	line-height: 20px;
@@ -350,6 +355,8 @@ ul.products-list {
 	width: 220px;
 	list-style: none;
 	margin-bottom: 20px;
+	background-color: white;
+	box-shadow: 0px 0px 11px 0px #c3c1c1;
 }
 
 .products-list li > a {
@@ -491,6 +498,8 @@ li.current-page::after {
 	background-color: #974646;
 }
 
+
+.inner-page .container,
 main.container {
 	width: 940px;
 	margin: 0 auto;
@@ -650,6 +659,7 @@ button.btn.galary-prev {
 
 .booking input {
 	box-sizing: border-box;
+	width: 140px;
 	padding-left: 10px;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -911,6 +921,11 @@ input[type="checkbox"]:checked +  .checkbox-indicator::before {
 	background: url(../img/cross-modal.svg) no-repeat #ffffff;
 	background-size: 15px 15px;
 	background-position: center;
+}
+
+.inner-page .container-noise {
+	background-image:	url("../img/patern-light.jpg");
+
 }
 
 .user-password-info {
