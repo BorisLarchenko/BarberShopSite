@@ -5,7 +5,7 @@
 	<title>Barbershop</title>
 	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 	<header class="main-header">
@@ -38,54 +38,55 @@
 			</div>
 		</div>
 	</header>
-	<main class="container">
-		<div class="index-logo">
-			<img src="img/index-logo.png" alt="Barbershop-logo" width="371" height="155">
-		</div>
-		<section class="features">
-			<div class="features-item">
-				<b class="features-name">Быстро</b>
-				<p>мы делаем свою работу быстро! два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
-			</div>
-			<div class="features-item">
-				<b class="features-name">Круто</b>
-				<p>забудьте, как вы стриглись раньше.
-					мы сделаем из вас звезду футбола или кино!
-					во всяком случае внешне.</p>
-			</div>
-			<div class="features-item">
-				<b class="features-name">Дорого</b>
-				<p>наши мастера — профессионалы своего дела и не могут стоить дешево. к тому же, разве цена не дает определеный статус?</p>
-			</div>
-		</section>
-		<!--<div class="index-bg">-->
-			<div class="index-content first">
-			<div class="index-content-right">
-				<h2 class="index-content-title">Новости</h2>
-				<ul class="news-preview">
-					<li>
-						<p>нам наконец завезли ягермайстер! теперь вы можете пропустить стаканчик во время стрижки</p>
-						<time datetime="2018-04-16">16 апреля</time>
-					</li>
-					<li>
-						<p>в нашей команде пополнение, борис «бритва» стригунец, обладaтель множества титулов и наград пополнил наши стройные ряды</p>
-						<time datetime="2018-04-15">15 апреля</time>
-					</li>
-				</ul>
-				<a href="#" class="btn">Все новости</a>
-			</div>
-			<div class="index-content-left">
-				<h2>Фотогалерея</h2>
-				<div class="galary">
-					<a href="#"><img src="img/shop-inside.jpg" alt="Barber-room" height="164" width="286"></a>
-					<div class="button-container-flex">
-						<button class="btn galary-prev">назад</button>
-						<button class="btn galary-next">вперед</button>
+	<main class="container-noise">
+		<div class="container">
+			<div class="wrapper">
+				<div class="index-logo">
+					<img src="img/index-logo.png" alt="Barbershop-logo" width="371" height="155">
+				</div>
+				<section class="features">
+					<div class="features-item">
+						<b class="features-name">Быстро</b>
+						<p>мы делаем свою работу быстро! два часа пролетят незаметно и вы — счастливый обладатель стильной стрижки-минутки!</p>
+					</div>
+					<div class="features-item">
+						<b class="features-name">Круто</b>
+						<p>забудьте, как вы стриглись раньше.
+							мы сделаем из вас звезду футбола или кино!
+							во всяком случае внешне.</p>
+					</div>
+					<div class="features-item">
+						<b class="features-name">Дорого</b>
+						<p>наши мастера — профессионалы своего дела и не могут стоить дешево. к тому же, разве цена не дает определеный статус?</p>
+					</div>
+				</section>
+				<div class="index-content first">
+					<div class="index-content-right">
+						<h2 class="index-content-title">Новости</h2>
+						<ul class="news-preview">
+							<li>
+								<p>нам наконец завезли ягермайстер! теперь вы можете пропустить стаканчик во время стрижки</p>
+								<time datetime="2018-04-16">16 апреля</time>
+							</li>
+							<li>
+								<p>в нашей команде пополнение, борис «бритва» стригунец, обладaтель множества титулов и наград пополнил наши стройные ряды</p>
+								<time datetime="2018-04-15">15 апреля</time>
+							</li>
+						</ul>
+						<a href="#" class="btn">Все новости</a>
+					</div>
+					<div class="index-content-left">
+						<h2>Фотогалерея</h2>
+						<div class="galary">
+							<a href="#"><img src="img/shop-inside.jpg" alt="Barber-room" height="164" width="286"></a>
+							<div class="button-container-flex">
+								<button class="btn galary-prev">назад</button>
+								<button class="btn galary-next">вперед</button>
+							</div>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
-			<div class="index-content second">
+				<div class="index-content second">
 				<div class="index-content-right">
 					<h2 class="index-content-title">Контактная информация</h2>
 					<p class="contacts">барбершоп «бородинский» <br>
@@ -118,8 +119,11 @@
 						<button class="btn"	type="submit">Отправить</button>
 					</form>
 				</div>
+			</div>
+			</div>
 		</div>
-		<!--</div>-->
+
+
 	</main>
 	<footer class="main-footer">
 		<div class="container footer-flex">
