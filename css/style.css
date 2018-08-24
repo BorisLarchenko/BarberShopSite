@@ -281,7 +281,7 @@ form.filters-form li {
 	border: 2px solid black;
 }
 
-.filter-options  input[type="checkbox"]:checked +  .filter-choose::before {
+input[type="checkbox"]:checked + label .filter-choose::before {
 	content: "";
 	position: absolute;
 	background-image: url("../img/cross-modal.svg");
