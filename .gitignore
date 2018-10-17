@@ -1,0 +1,6 @@
+.dbus-keyrings/
+.gitconfig
+.idea/
+.ssh/
+Meld.exe
+img/test.svg
